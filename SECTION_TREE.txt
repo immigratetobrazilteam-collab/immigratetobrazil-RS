@@ -1,1067 +1,664 @@
-rs/
+RS/
 ├─ index.html
-│  ├─ rs-index-form-immigrate-to-rio-grande-do-sul
-│  ├─ rs-index-list--immigration-assistance-for-gaucho-cowboys-in-rio-grande-do-sul-
-│  ├─ rs-index-list-immigration-legal-services-in-brazil
-│  ├─ rs-index-section-why-rio-grande-do-sul
-│  ├─ rs-index-list-how-the-process-works
-│  ├─ rs-index-section--frequently-asked-questions-about-living-in-rio-grande-do-sul-
-│  ├─ contact
+│  ├─ rs-index-section--map
+│  ├─ rs-index-section-frequently-asked-questions-about-living-in-
+│  ├─ rs-index-contact
 
-├─ renouncing-citizenship.html
-│  ├─ rs-renouncingcitizenship-form-renounce-brazilian-citizenship
-│  ├─ rs-renouncingcitizenship-list-quick-facts
-│  ├─ rs-renouncingcitizenship-list-common-challenges-applicants-face
-│  ├─ rs-renouncingcitizenship-list-how-we-solve-these-challenges
-│  ├─ rs-renouncingcitizenship-section-renunciation-overview
-│  ├─ rs-renouncingcitizenship-form-who-is-this-for
-│  ├─ rs-renouncingcitizenship-list-required-documents
-│  ├─ rs-renouncingcitizenship-list-process
-│  ├─ rs-renouncingcitizenship-section-timelines-deadlines
-│  ├─ rs-renouncingcitizenship-section-fees-costs
-│  ├─ rs-renouncingcitizenship-list-risks-common-mistakes
-│  ├─ rs-renouncingcitizenship-section-diy-vs-professional-assistance
-│  ├─ rs-renouncingcitizenship-section-rio-grande-do-sul-specific-context
-│  ├─ rs-renouncingcitizenship-section-what-our-clients-say
-│  ├─ rs-renouncingcitizenship-section-frequently-asked-questions
-│  ├─ rs-renouncingcitizenship-section-international-support
-│  ├─ application-form
-│  ├─ rs-renouncingcitizenship-list-our-credentials
-│  ├─ rs-renouncingcitizenship-list-related-services
-│  ├─ rs-renouncingcitizenship-section-youre-in-good-hands
-│  ├─ rs-renouncingcitizenship-section-21
+├─ footer.html
+│  ├─ main-footer
 
-├─ provisional.html
-│  ├─ rs-provisional-form-provisional-naturalisation-in-brazil-for-minors
-│  ├─ rs-provisional-list-quick-facts
-│  ├─ rs-provisional-list-common-challenges-applicants-face
-│  ├─ rs-provisional-list-how-we-solve-these-challenges
-│  ├─ rs-provisional-section-naturalisation-overview
-│  ├─ rs-provisional-form-who-is-this-naturalisation-for
-│  ├─ rs-provisional-list-required-documents
-│  ├─ rs-provisional-list-application-process
-│  ├─ rs-provisional-section-timelines-deadlines
-│  ├─ rs-provisional-section-fees-costs
-│  ├─ rs-provisional-list-risks-common-mistakes
-│  ├─ rs-provisional-section-diy-vs-professional-assistance
-│  ├─ rs-provisional-section-rio-grande-do-sul-specific-context
-│  ├─ rs-provisional-section-what-our-clients-say
-│  ├─ rs-provisional-section-frequently-asked-questions
-│  ├─ rs-provisional-section-international-support
-│  ├─ application-form
-│  ├─ rs-provisional-list-our-credentials
-│  ├─ rs-provisional-list-related-services
-│  ├─ rs-provisional-section-youre-in-good-hands
-│  ├─ rs-provisional-section-21
+├─ header.html
+│  ├─ main-header
 
-├─ special.html
-│  ├─ rs-special-form-special-naturalisation-in-brazil-for-particular-cases
-│  ├─ rs-special-list-quick-facts
-│  ├─ rs-special-list-common-challenges-applicants-face
-│  ├─ rs-special-list-how-we-solve-these-challenges
-│  ├─ rs-special-section-naturalisation-overview
-│  ├─ rs-special-form-who-is-this-naturalisation-for
-│  ├─ rs-special-list-required-documents
-│  ├─ rs-special-list-application-process
-│  ├─ rs-special-section-timelines-deadlines
-│  ├─ rs-special-section-fees-costs
-│  ├─ rs-special-list-risks-common-mistakes
-│  ├─ rs-special-section-diy-vs-professional-assistance
-│  ├─ rs-special-section-rio-grande-do-sul-specific-context
-│  ├─ rs-special-section-what-our-clients-say
-│  ├─ rs-special-section-frequently-asked-questions
-│  ├─ rs-special-section-international-support
-│  ├─ application-form
-│  ├─ rs-special-list-our-credentials
-│  ├─ rs-special-list-related-services
-│  ├─ rs-special-section-youre-in-good-hands
-│  ├─ rs-special-section-21
-
-├─ ordinary.html
-│  ├─ rs-ordinary-form-obtain-brazilian-citizenship-through-ordinary-naturalisation
-│  ├─ rs-ordinary-list-quick-facts
-│  ├─ rs-ordinary-list-common-challenges-applicants-face
-│  ├─ rs-ordinary-list-how-we-solve-these-challenges
-│  ├─ rs-ordinary-section-naturalisation-overview
-│  ├─ rs-ordinary-form-who-is-this-naturalisation-for
-│  ├─ rs-ordinary-list-required-documents
-│  ├─ rs-ordinary-list-application-process
-│  ├─ rs-ordinary-section-timelines-deadlines
-│  ├─ rs-ordinary-section-fees-costs
-│  ├─ rs-ordinary-list-risks-common-mistakes
-│  ├─ rs-ordinary-section-diy-vs-professional-assistance
-│  ├─ rs-ordinary-section-rio-grande-do-sul-specific-context
-│  ├─ rs-ordinary-section-what-our-clients-say
-│  ├─ rs-ordinary-section-frequently-asked-questions
-│  ├─ rs-ordinary-section-international-support
-│  ├─ application-form
-│  ├─ rs-ordinary-list-our-credentials
-│  ├─ rs-ordinary-list-related-services
-│  ├─ rs-ordinary-section-youre-in-good-hands
-│  ├─ rs-ordinary-section-21
-
-├─ extraordinary.html
-│  ├─ rs-extraordinary-form-extraordinary-naturalisation-in-brazil-for-contributions
-│  ├─ rs-extraordinary-list-quick-facts
-│  ├─ rs-extraordinary-list-common-challenges-applicants-face
-│  ├─ rs-extraordinary-list-how-we-solve-these-challenges
-│  ├─ rs-extraordinary-section-naturalisation-overview
-│  ├─ rs-extraordinary-form-who-is-this-naturalisation-for
-│  ├─ rs-extraordinary-list-required-documents
-│  ├─ rs-extraordinary-list-application-process
-│  ├─ rs-extraordinary-section-timelines-deadlines
-│  ├─ rs-extraordinary-section-fees-costs
-│  ├─ rs-extraordinary-list-risks-common-mistakes
-│  ├─ rs-extraordinary-section-diy-vs-professional-assistance
-│  ├─ rs-extraordinary-section-rio-grande-do-sul-specific-context
-│  ├─ rs-extraordinary-section-what-our-clients-say
-│  ├─ rs-extraordinary-section-frequently-asked-questions
-│  ├─ rs-extraordinary-section-international-support
-│  ├─ application-form
-│  ├─ rs-extraordinary-list-our-credentials
-│  ├─ rs-extraordinary-list-related-services
-│  ├─ rs-extraordinary-section-youre-in-good-hands
-│  ├─ rs-extraordinary-section-21
-
-├─ reacquisition-citizenship.html
-│  ├─ rs-reacquisitioncitizenship-form-reacquire-brazilian-citizenship
-│  ├─ rs-reacquisitioncitizenship-list-quick-facts
-│  ├─ rs-reacquisitioncitizenship-list-common-challenges-applicants-face
-│  ├─ rs-reacquisitioncitizenship-list-how-we-solve-these-challenges
-│  ├─ rs-reacquisitioncitizenship-section-reacquisition-overview
-│  ├─ rs-reacquisitioncitizenship-form-who-is-this-for
-│  ├─ rs-reacquisitioncitizenship-list-required-documents
-│  ├─ rs-reacquisitioncitizenship-list-process
-│  ├─ rs-reacquisitioncitizenship-section-timelines-deadlines
-│  ├─ rs-reacquisitioncitizenship-section-fees-costs
-│  ├─ rs-reacquisitioncitizenship-list-risks-common-mistakes
-│  ├─ rs-reacquisitioncitizenship-section-diy-vs-professional-assistance
-│  ├─ rs-reacquisitioncitizenship-section-rio-grande-do-sul-specific-context
-│  ├─ rs-reacquisitioncitizenship-section-what-our-clients-say
-│  ├─ rs-reacquisitioncitizenship-section-frequently-asked-questions
-│  ├─ rs-reacquisitioncitizenship-section-international-support
-│  ├─ application-form
-│  ├─ rs-reacquisitioncitizenship-list-our-credentials
-│  ├─ rs-reacquisitioncitizenship-list-related-services
-│  ├─ rs-reacquisitioncitizenship-section-youre-in-good-hands
-│  ├─ rs-reacquisitioncitizenship-section-21
-
-├─ scientific-research.html
-│  ├─ rs-scientificresearch-form-conduct-scientific-research-with-residency-in-brazil
-│  ├─ rs-scientificresearch-list-quick-facts
-│  ├─ rs-scientificresearch-list-common-challenges-applicants-face
-│  ├─ rs-scientificresearch-list-how-we-solve-these-challenges
-│  ├─ rs-scientificresearch-section-residency-overview
-│  ├─ rs-scientificresearch-form-who-is-this-residency-for
-│  ├─ rs-scientificresearch-list-required-documents
-│  ├─ rs-scientificresearch-list-application-process
-│  ├─ rs-scientificresearch-section-timelines-deadlines
-│  ├─ rs-scientificresearch-section-fees-costs
-│  ├─ rs-scientificresearch-list-risks-common-mistakes
-│  ├─ rs-scientificresearch-section-diy-vs-professional-assistance
-│  ├─ rs-scientificresearch-section-rio-grande-do-sul-specific-context
-│  ├─ rs-scientificresearch-section-what-our-clients-say
-│  ├─ rs-scientificresearch-section-frequently-asked-questions
-│  ├─ rs-scientificresearch-section-international-support
-│  ├─ application-form
-│  ├─ rs-scientificresearch-list-our-credentials
-│  ├─ rs-scientificresearch-list-related-services
-│  ├─ rs-scientificresearch-section-youre-in-good-hands
-│  ├─ rs-scientificresearch-section-21
-
-├─ study.html
-│  ├─ rs-study-form-study-in-brazil-with-study-residency
-│  ├─ rs-study-list-quick-facts
-│  ├─ rs-study-list-common-challenges-applicants-face
-│  ├─ rs-study-list-how-we-solve-these-challenges
-│  ├─ rs-study-section-residency-overview
-│  ├─ rs-study-form-who-is-this-residency-for
-│  ├─ rs-study-list-required-documents
-│  ├─ rs-study-list-application-process
-│  ├─ rs-study-section-timelines-deadlines
-│  ├─ rs-study-section-fees-costs
-│  ├─ rs-study-list-risks-common-mistakes
-│  ├─ rs-study-section-diy-vs-professional-assistance
-│  ├─ rs-study-section-rio-grande-do-sul-specific-context
-│  ├─ rs-study-section-what-our-clients-say
-│  ├─ rs-study-section-frequently-asked-questions
-│  ├─ rs-study-section-international-support
-│  ├─ application-form
-│  ├─ rs-study-list-our-credentials
-│  ├─ rs-study-list-related-services
-│  ├─ rs-study-section-youre-in-good-hands
-│  ├─ rs-study-section-21
-
-├─ educational-exchange.html
-│  ├─ rs-educationalexchange-form-participate-in-educational-exchanges-with-residency-in-brazil
-│  ├─ rs-educationalexchange-list-quick-facts
-│  ├─ rs-educationalexchange-list-common-challenges-applicants-face
-│  ├─ rs-educationalexchange-list-how-we-solve-these-challenges
-│  ├─ rs-educationalexchange-section-residency-overview
-│  ├─ rs-educationalexchange-form-who-is-this-residency-for
-│  ├─ rs-educationalexchange-list-required-documents
-│  ├─ rs-educationalexchange-list-application-process
-│  ├─ rs-educationalexchange-section-timelines-deadlines
-│  ├─ rs-educationalexchange-section-fees-costs
-│  ├─ rs-educationalexchange-list-risks-common-mistakes
-│  ├─ rs-educationalexchange-section-diy-vs-professional-assistance
-│  ├─ rs-educationalexchange-section-rio-grande-do-sul-specific-context
-│  ├─ rs-educationalexchange-section-what-our-clients-say
-│  ├─ rs-educationalexchange-section-frequently-asked-questions
-│  ├─ rs-educationalexchange-section-international-support
-│  ├─ application-form
-│  ├─ rs-educationalexchange-list-our-credentials
-│  ├─ rs-educationalexchange-list-related-services
-│  ├─ rs-educationalexchange-section-youre-in-good-hands
-│  ├─ rs-educationalexchange-section-21
-
-├─ humanitarian.html
-│  ├─ rs-humanitarian-form-humanitarian-residency-in-brazil-for-protection
-│  ├─ rs-humanitarian-list-quick-facts
-│  ├─ rs-humanitarian-list-common-challenges-applicants-face
-│  ├─ rs-humanitarian-list-how-we-solve-these-challenges
-│  ├─ rs-humanitarian-section-residency-overview
-│  ├─ rs-humanitarian-form-who-is-this-residency-for
-│  ├─ rs-humanitarian-list-required-documents
-│  ├─ rs-humanitarian-list-application-process
-│  ├─ rs-humanitarian-section-timelines-deadlines
-│  ├─ rs-humanitarian-section-fees-costs
-│  ├─ rs-humanitarian-list-risks-common-mistakes
-│  ├─ rs-humanitarian-section-diy-vs-professional-assistance
-│  ├─ rs-humanitarian-section-rio-grande-do-sul-specific-context
-│  ├─ rs-humanitarian-section-what-our-clients-say
-│  ├─ rs-humanitarian-section-frequently-asked-questions
-│  ├─ rs-humanitarian-section-international-support
-│  ├─ application-form
-│  ├─ rs-humanitarian-list-our-credentials
-│  ├─ rs-humanitarian-list-related-services
-│  ├─ rs-humanitarian-section-youre-in-good-hands
-│  ├─ rs-humanitarian-section-21
-
-├─ digital-nomad.html
-│  ├─ rs-digitalnomad-form-digital-nomad-residency-in-brazil
-│  ├─ rs-digitalnomad-list-quick-facts
-│  ├─ rs-digitalnomad-list-common-challenges-applicants-face
-│  ├─ rs-digitalnomad-list-how-we-solve-these-challenges
-│  ├─ rs-digitalnomad-section-residency-overview
-│  ├─ rs-digitalnomad-form-who-is-this-residency-for
-│  ├─ rs-digitalnomad-list-required-documents
-│  ├─ rs-digitalnomad-list-application-process
-│  ├─ rs-digitalnomad-section-timelines-deadlines
-│  ├─ rs-digitalnomad-section-fees-costs
-│  ├─ rs-digitalnomad-list-risks-common-mistakes
-│  ├─ rs-digitalnomad-section-diy-vs-professional-assistance
-│  ├─ rs-digitalnomad-section-rio-grande-do-sul-specific-context
-│  ├─ rs-digitalnomad-section-what-our-clients-say
-│  ├─ rs-digitalnomad-section-frequently-asked-questions
-│  ├─ rs-digitalnomad-section-international-support
-│  ├─ application-form
-│  ├─ rs-digitalnomad-list-our-credentials
-│  ├─ rs-digitalnomad-list-related-services
-│  ├─ rs-digitalnomad-section-youre-in-good-hands
-│  ├─ rs-digitalnomad-section-21
-
-├─ family-reunion.html
-│  ├─ rs-familyreunion-form-reunite-with-family-in-brazil-with-family-reunion-residency
-│  ├─ rs-familyreunion-list-quick-facts
-│  ├─ rs-familyreunion-list-common-challenges-applicants-face
-│  ├─ rs-familyreunion-list-how-we-solve-these-challenges
-│  ├─ rs-familyreunion-section-residency-overview
-│  ├─ rs-familyreunion-form-who-is-this-residency-for
-│  ├─ rs-familyreunion-list-required-documents
-│  ├─ rs-familyreunion-list-application-process
-│  ├─ rs-familyreunion-section-timelines-deadlines
-│  ├─ rs-familyreunion-section-fees-costs
-│  ├─ rs-familyreunion-list-risks-common-mistakes
-│  ├─ rs-familyreunion-section-diy-vs-professional-assistance
-│  ├─ rs-familyreunion-section-rio-grande-do-sul-specific-context
-│  ├─ rs-familyreunion-section-what-our-clients-say
-│  ├─ rs-familyreunion-section-frequently-asked-questions
-│  ├─ rs-familyreunion-section-international-support
-│  ├─ application-form
-│  ├─ rs-familyreunion-list-our-credentials
-│  ├─ rs-familyreunion-list-related-services
-│  ├─ rs-familyreunion-section-youre-in-good-hands
-│  ├─ rs-familyreunion-section-21
-
-├─ mercosul.html
-│  ├─ rs-mercosul-form-residency-for-mercosul-citizens-in-brazil
-│  ├─ rs-mercosul-list-quick-facts
-│  ├─ rs-mercosul-list-common-challenges-applicants-face
-│  ├─ rs-mercosul-list-how-we-solve-these-challenges
-│  ├─ rs-mercosul-section-residency-overview
-│  ├─ rs-mercosul-form-who-is-this-residency-for
-│  ├─ rs-mercosul-list-required-documents
-│  ├─ rs-mercosul-list-application-process
-│  ├─ rs-mercosul-section-timelines-deadlines
-│  ├─ rs-mercosul-section-fees-costs
-│  ├─ rs-mercosul-list-risks-common-mistakes
-│  ├─ rs-mercosul-section-diy-vs-professional-assistance
-│  ├─ rs-mercosul-section-rio-grande-do-sul-specific-context
-│  ├─ rs-mercosul-section-what-our-clients-say
-│  ├─ rs-mercosul-section-frequently-asked-questions
-│  ├─ rs-mercosul-section-international-support
-│  ├─ application-form
-│  ├─ rs-mercosul-list-our-credentials
-│  ├─ rs-mercosul-list-related-services
-│  ├─ rs-mercosul-section-youre-in-good-hands
-│  ├─ rs-mercosul-section-21
-
-├─ retiree.html
-│  ├─ rs-retiree-form-retire-in-brazil-with-retiree-residency
-│  ├─ rs-retiree-list-quick-facts
-│  ├─ rs-retiree-list-common-challenges-applicants-face
-│  ├─ rs-retiree-list-how-we-solve-these-challenges
-│  ├─ rs-retiree-section-residency-overview
-│  ├─ rs-retiree-form-who-is-this-residency-for
-│  ├─ rs-retiree-list-required-documents
-│  ├─ rs-retiree-list-application-process
-│  ├─ rs-retiree-section-timelines-deadlines
-│  ├─ rs-retiree-section-fees-costs
-│  ├─ rs-retiree-list-risks-common-mistakes
-│  ├─ rs-retiree-section-diy-vs-professional-assistance
-│  ├─ rs-retiree-section-rio-grande-do-sul-specific-context
-│  ├─ rs-retiree-section-what-our-clients-say
-│  ├─ rs-retiree-section-frequently-asked-questions
-│  ├─ rs-retiree-section-international-support
-│  ├─ application-form
-│  ├─ rs-retiree-list-our-credentials
-│  ├─ rs-retiree-list-related-services
-│  ├─ rs-retiree-section-youre-in-good-hands
-│  ├─ rs-retiree-section-21
-
-├─ volunteer.html
-│  ├─ rs-volunteer-form-volunteer-in-brazil-with-volunteer-residency
-│  ├─ rs-volunteer-list-quick-facts
-│  ├─ rs-volunteer-list-common-challenges-applicants-face
-│  ├─ rs-volunteer-list-how-we-solve-these-challenges
-│  ├─ rs-volunteer-section-residency-overview
-│  ├─ rs-volunteer-form-who-is-this-residency-for
-│  ├─ rs-volunteer-list-required-documents
-│  ├─ rs-volunteer-list-application-process
-│  ├─ rs-volunteer-section-timelines-deadlines
-│  ├─ rs-volunteer-section-fees-costs
-│  ├─ rs-volunteer-list-risks-common-mistakes
-│  ├─ rs-volunteer-section-diy-vs-professional-assistance
-│  ├─ rs-volunteer-section-rio-grande-do-sul-specific-context
-│  ├─ rs-volunteer-section-what-our-clients-say
-│  ├─ rs-volunteer-section-frequently-asked-questions
-│  ├─ rs-volunteer-section-international-support
-│  ├─ application-form
-│  ├─ rs-volunteer-list-our-credentials
-│  ├─ rs-volunteer-list-related-services
-│  ├─ rs-volunteer-section-youre-in-good-hands
-│  ├─ rs-volunteer-section-21
-
-├─ skilled-worker.html
-│  ├─ rs-skilledworker-form-skilled-worker-residency-in-brazil-for-professionals
-│  ├─ rs-skilledworker-list-quick-facts
-│  ├─ rs-skilledworker-list-common-challenges-applicants-face
-│  ├─ rs-skilledworker-list-how-we-solve-these-challenges
-│  ├─ rs-skilledworker-section-residency-overview
-│  ├─ rs-skilledworker-form-who-is-this-residency-for
-│  ├─ rs-skilledworker-list-required-documents
-│  ├─ rs-skilledworker-list-application-process
-│  ├─ rs-skilledworker-section-timelines-deadlines
-│  ├─ rs-skilledworker-section-fees-costs
-│  ├─ rs-skilledworker-list-risks-common-mistakes
-│  ├─ rs-skilledworker-section-diy-vs-professional-assistance
-│  ├─ rs-skilledworker-section-rio-grande-do-sul-specific-context
-│  ├─ rs-skilledworker-section-what-our-clients-say
-│  ├─ rs-skilledworker-section-frequently-asked-questions
-│  ├─ rs-skilledworker-section-international-support
-│  ├─ application-form
-│  ├─ rs-skilledworker-list-our-credentials
-│  ├─ rs-skilledworker-list-related-services
-│  ├─ rs-skilledworker-section-youre-in-good-hands
-│  ├─ rs-skilledworker-section-21
-
-├─ religious.html
-│  ├─ rs-religious-form-religious-residency-in-brazil-for-missions
-│  ├─ rs-religious-list-quick-facts
-│  ├─ rs-religious-list-common-challenges-applicants-face
-│  ├─ rs-religious-list-how-we-solve-these-challenges
-│  ├─ rs-religious-section-residency-overview
-│  ├─ rs-religious-form-who-is-this-residency-for
-│  ├─ rs-religious-list-required-documents
-│  ├─ rs-religious-list-application-process
-│  ├─ rs-religious-section-timelines-deadlines
-│  ├─ rs-religious-section-fees-costs
-│  ├─ rs-religious-list-risks-common-mistakes
-│  ├─ rs-religious-section-diy-vs-professional-assistance
-│  ├─ rs-religious-section-rio-grande-do-sul-specific-context
-│  ├─ rs-religious-section-what-our-clients-say
-│  ├─ rs-religious-section-frequently-asked-questions
-│  ├─ rs-religious-section-international-support
-│  ├─ application-form
-│  ├─ rs-religious-list-our-credentials
-│  ├─ rs-religious-list-related-services
-│  ├─ rs-religious-section-youre-in-good-hands
-│  ├─ rs-religious-section-21
-
-├─ investor.html
-│  ├─ rs-investor-form-gain-residency-in-brazil-through-investment
-│  ├─ rs-investor-list-quick-facts
-│  ├─ rs-investor-list-common-challenges-applicants-face
-│  ├─ rs-investor-list-how-we-solve-these-challenges
-│  ├─ rs-investor-section-residency-overview
-│  ├─ rs-investor-form-who-is-this-residency-for
-│  ├─ rs-investor-list-required-documents
-│  ├─ rs-investor-list-application-process
-│  ├─ rs-investor-section-timelines-deadlines
-│  ├─ rs-investor-section-fees-costs
-│  ├─ rs-investor-list-risks-common-mistakes
-│  ├─ rs-investor-section-diy-vs-professional-assistance
-│  ├─ rs-investor-section-rio-grande-do-sul-specific-context
-│  ├─ rs-investor-section-what-our-clients-say
-│  ├─ rs-investor-section-frequently-asked-questions
-│  ├─ rs-investor-section-international-support
-│  ├─ application-form
-│  ├─ rs-investor-list-our-credentials
-│  ├─ rs-investor-list-related-services
-│  ├─ rs-investor-section-youre-in-good-hands
-│  ├─ rs-investor-section-21
-
-├─ health-treatment.html
-│  ├─ rs-healthtreatment-form-extend-your-stay-for-health-treatment-in-brazil
-│  ├─ rs-healthtreatment-list-quick-facts
-│  ├─ rs-healthtreatment-list-common-challenges-applicants-face
-│  ├─ rs-healthtreatment-list-how-we-solve-these-challenges
-│  ├─ rs-healthtreatment-section-residency-overview
-│  ├─ rs-healthtreatment-form-who-is-this-residency-for
-│  ├─ rs-healthtreatment-list-required-documents
-│  ├─ rs-healthtreatment-list-application-process
-│  ├─ rs-healthtreatment-section-timelines-deadlines
-│  ├─ rs-healthtreatment-section-fees-costs
-│  ├─ rs-healthtreatment-list-risks-common-mistakes
-│  ├─ rs-healthtreatment-section-diy-vs-professional-assistance
-│  ├─ rs-healthtreatment-section-rio-grande-do-sul-specific-context
-│  ├─ rs-healthtreatment-section-what-our-clients-say
-│  ├─ rs-healthtreatment-section-frequently-asked-questions
-│  ├─ rs-healthtreatment-section-international-support
-│  ├─ application-form
-│  ├─ rs-healthtreatment-list-our-credentials
-│  ├─ rs-healthtreatment-list-related-services
-│  ├─ rs-healthtreatment-section-youre-in-good-hands
-│  ├─ rs-healthtreatment-section-21
-
-├─ cplp.html
-│  ├─ rs-cplp-form-residency-for-cplp-citizens-in-brazil
-│  ├─ rs-cplp-list-quick-facts
-│  ├─ rs-cplp-list-common-challenges-applicants-face
-│  ├─ rs-cplp-list-how-we-solve-these-challenges
-│  ├─ rs-cplp-section-residency-overview
-│  ├─ rs-cplp-form-who-is-this-residency-for
-│  ├─ rs-cplp-list-required-documents
-│  ├─ rs-cplp-list-application-process
-│  ├─ rs-cplp-section-timelines-deadlines
-│  ├─ rs-cplp-section-fees-costs
-│  ├─ rs-cplp-list-risks-common-mistakes
-│  ├─ rs-cplp-section-diy-vs-professional-assistance
-│  ├─ rs-cplp-section-rio-grande-do-sul-specific-context
-│  ├─ rs-cplp-section-what-our-clients-say
-│  ├─ rs-cplp-section-frequently-asked-questions
-│  ├─ rs-cplp-section-international-support
-│  ├─ application-form
-│  ├─ rs-cplp-list-our-credentials
-│  ├─ rs-cplp-list-related-services
-│  ├─ rs-cplp-section-youre-in-good-hands
-│  ├─ rs-cplp-section-21
-
-├─ youth-exchange.html
-│  ├─ rs-youthexchange-form-youth-exchange-residency-in-brazil-for-programs
-│  ├─ rs-youthexchange-list-quick-facts
-│  ├─ rs-youthexchange-list-common-challenges-applicants-face
-│  ├─ rs-youthexchange-list-how-we-solve-these-challenges
-│  ├─ rs-youthexchange-section-residency-overview
-│  ├─ rs-youthexchange-form-who-is-this-residency-for
-│  ├─ rs-youthexchange-list-required-documents
-│  ├─ rs-youthexchange-list-application-process
-│  ├─ rs-youthexchange-section-timelines-deadlines
-│  ├─ rs-youthexchange-section-fees-costs
-│  ├─ rs-youthexchange-list-risks-common-mistakes
-│  ├─ rs-youthexchange-section-diy-vs-professional-assistance
-│  ├─ rs-youthexchange-section-rio-grande-do-sul-specific-context
-│  ├─ rs-youthexchange-section-what-our-clients-say
-│  ├─ rs-youthexchange-section-frequently-asked-questions
-│  ├─ rs-youthexchange-section-international-support
-│  ├─ application-form
-│  ├─ rs-youthexchange-list-our-credentials
-│  ├─ rs-youthexchange-list-related-services
-│  ├─ rs-youthexchange-section-youre-in-good-hands
-│  ├─ rs-youthexchange-section-21
-
-├─ work.html
-│  ├─ rs-work-form-work-and-reside-in-brazil-with-work-residency
-│  ├─ rs-work-list-quick-facts
-│  ├─ rs-work-list-common-challenges-applicants-face
-│  ├─ rs-work-list-how-we-solve-these-challenges
-│  ├─ rs-work-section-residency-overview
-│  ├─ rs-work-form-who-is-this-residency-for
-│  ├─ rs-work-list-required-documents
-│  ├─ rs-work-list-application-process
-│  ├─ rs-work-section-timelines-deadlines
-│  ├─ rs-work-section-fees-costs
-│  ├─ rs-work-list-risks-common-mistakes
-│  ├─ rs-work-section-diy-vs-professional-assistance
-│  ├─ rs-work-section-rio-grande-do-sul-specific-context
-│  ├─ rs-work-section-what-our-clients-say
-│  ├─ rs-work-section-frequently-asked-questions
-│  ├─ rs-work-section-international-support
-│  ├─ application-form
-│  ├─ rs-work-list-our-credentials
-│  ├─ rs-work-list-related-services
-│  ├─ rs-work-section-youre-in-good-hands
-│  ├─ rs-work-section-21
-
-├─ startup.html
-│  ├─ rs-startup-form-launch-your-startup-in-brazil-with-the-startup-visa
-│  ├─ rs-startup-list-quick-facts
-│  ├─ rs-startup-list-common-challenges-applicants-face
-│  ├─ rs-startup-list-how-we-solve-these-challenges
-│  ├─ rs-startup-section-visa-overview
-│  ├─ rs-startup-form-who-is-this-visa-for
-│  ├─ rs-startup-list-required-documents
-│  ├─ rs-startup-list-application-process
-│  ├─ rs-startup-section-timelines-deadlines
-│  ├─ rs-startup-section-fees-costs
-│  ├─ rs-startup-list-risks-common-mistakes
-│  ├─ rs-startup-section-diy-vs-professional-assistance
-│  ├─ rs-startup-section-rio-grande-do-sul-specific-context
-│  ├─ rs-startup-section-what-our-clients-say
-│  ├─ rs-startup-section-frequently-asked-questions
-│  ├─ rs-startup-section-international-support
-│  ├─ application-form
-│  ├─ rs-startup-list-our-credentials
-│  ├─ rs-startup-list-related-services
-│  ├─ rs-startup-section-youre-in-good-hands
-│  ├─ rs-startup-section-21
-
-├─ family.html
-│  ├─ rs-family-form-reunite-with-family-in-brazil-with-the-family-visa
-│  ├─ rs-family-list-quick-facts
-│  ├─ rs-family-list-common-challenges-applicants-face
-│  ├─ rs-family-list-how-we-solve-these-challenges
-│  ├─ rs-family-section-visa-overview
-│  ├─ rs-family-form-who-is-this-visa-for
-│  ├─ rs-family-list-required-documents
-│  ├─ rs-family-list-application-process
-│  ├─ rs-family-section-timelines-deadlines
-│  ├─ rs-family-section-fees-costs
-│  ├─ rs-family-list-risks-common-mistakes
-│  ├─ rs-family-section-diy-vs-professional-assistance
-│  ├─ rs-family-section-rio-grande-do-sul-specific-context
-│  ├─ rs-family-section-what-our-clients-say
-│  ├─ rs-family-section-frequently-asked-questions
-│  ├─ rs-family-section-international-support
-│  ├─ application-form
-│  ├─ rs-family-list-our-credentials
-│  ├─ rs-family-list-related-services
-│  ├─ rs-family-section-youre-in-good-hands
-│  ├─ rs-family-section-21
-
-├─ sports.html
-│  ├─ rs-sports-form-compete-in-brazil-with-the-sports-visa
-│  ├─ rs-sports-list-quick-facts
-│  ├─ rs-sports-list-common-challenges-applicants-face
-│  ├─ rs-sports-list-how-we-solve-these-challenges
-│  ├─ rs-sports-section-visa-overview
-│  ├─ rs-sports-form-who-is-this-visa-for
-│  ├─ rs-sports-list-required-documents
-│  ├─ rs-sports-list-application-process
-│  ├─ rs-sports-section-timelines-deadlines
-│  ├─ rs-sports-section-fees-costs
-│  ├─ rs-sports-list-risks-common-mistakes
-│  ├─ rs-sports-section-diy-vs-professional-assistance
-│  ├─ rs-sports-section-rio-grande-do-sul-specific-context
-│  ├─ rs-sports-section-what-our-clients-say
-│  ├─ rs-sports-section-frequently-asked-questions
-│  ├─ rs-sports-section-international-support
-│  ├─ application-form
-│  ├─ rs-sports-list-our-credentials
-│  ├─ rs-sports-list-related-services
-│  ├─ rs-sports-section-youre-in-good-hands
-│  ├─ rs-sports-section-21
-
-├─ medical.html
-│  ├─ rs-medical-form-receive-medical-treatment-in-brazil-with-the-medical-visa
-│  ├─ rs-medical-list-quick-facts
-│  ├─ rs-medical-list-common-challenges-applicants-face
-│  ├─ rs-medical-list-how-we-solve-these-challenges
-│  ├─ rs-medical-section-visa-overview
-│  ├─ rs-medical-form-who-is-this-visa-for
-│  ├─ rs-medical-list-required-documents
-│  ├─ rs-medical-list-application-process
-│  ├─ rs-medical-section-timelines-deadlines
-│  ├─ rs-medical-section-fees-costs
-│  ├─ rs-medical-list-risks-common-mistakes
-│  ├─ rs-medical-section-diy-vs-professional-assistance
-│  ├─ rs-medical-section-rio-grande-do-sul-specific-context
-│  ├─ rs-medical-section-what-our-clients-say
-│  ├─ rs-medical-section-frequently-asked-questions
-│  ├─ rs-medical-section-international-support
-│  ├─ application-form
-│  ├─ rs-medical-list-our-credentials
-│  ├─ rs-medical-list-related-services
-│  ├─ rs-medical-section-youre-in-good-hands
-│  ├─ rs-medical-section-21
-
-├─ tourist.html
-│  ├─ rs-tourist-form-visit-brazil-as-a-tourist-with-the-tourist-visa
-│  ├─ rs-tourist-list-quick-facts
-│  ├─ rs-tourist-list-common-challenges-applicants-face
-│  ├─ rs-tourist-list-how-we-solve-these-challenges
-│  ├─ rs-tourist-section-visa-overview
-│  ├─ rs-tourist-form-who-is-this-visa-for
-│  ├─ rs-tourist-list-required-documents
-│  ├─ rs-tourist-list-application-process
-│  ├─ rs-tourist-section-timelines-deadlines
-│  ├─ rs-tourist-section-fees-costs
-│  ├─ rs-tourist-list-risks-common-mistakes
-│  ├─ rs-tourist-section-diy-vs-professional-assistance
-│  ├─ rs-tourist-section-rio-grande-do-sul-specific-context
-│  ├─ rs-tourist-section-what-our-clients-say
-│  ├─ rs-tourist-section-frequently-asked-questions
-│  ├─ rs-tourist-section-international-support
-│  ├─ application-form
-│  ├─ rs-tourist-list-our-credentials
-│  ├─ rs-tourist-list-related-services
-│  ├─ rs-tourist-section-youre-in-good-hands
-│  ├─ rs-tourist-section-21
-
-├─ transit.html
-│  ├─ rs-transit-form-transit-through-brazil-with-the-transit-visa
-│  ├─ rs-transit-list-quick-facts
-│  ├─ rs-transit-list-common-challenges-applicants-face
-│  ├─ rs-transit-list-how-we-solve-these-challenges
-│  ├─ rs-transit-section-visa-overview
-│  ├─ rs-transit-form-who-is-this-visa-for
-│  ├─ rs-transit-list-required-documents
-│  ├─ rs-transit-list-application-process
-│  ├─ rs-transit-section-timelines-deadlines
-│  ├─ rs-transit-section-fees-costs
-│  ├─ rs-transit-list-risks-common-mistakes
-│  ├─ rs-transit-section-diy-vs-professional-assistance
-│  ├─ rs-transit-section-rio-grande-do-sul-specific-context
-│  ├─ rs-transit-section-what-our-clients-say
-│  ├─ rs-transit-section-frequently-asked-questions
-│  ├─ rs-transit-section-international-support
-│  ├─ application-form
-│  ├─ rs-transit-list-our-credentials
-│  ├─ rs-transit-list-related-services
-│  ├─ rs-transit-section-youre-in-good-hands
-│  ├─ rs-transit-section-21
-
-├─ student.html
-│  ├─ rs-student-form-study-in-brazil-with-the-student-visa
-│  ├─ rs-student-list-quick-facts
-│  ├─ rs-student-list-common-challenges-applicants-face
-│  ├─ rs-student-list-how-we-solve-these-challenges
-│  ├─ rs-student-section-visa-overview
-│  ├─ rs-student-form-who-is-this-visa-for
-│  ├─ rs-student-list-required-documents
-│  ├─ rs-student-list-application-process
-│  ├─ rs-student-section-timelines-deadlines
-│  ├─ rs-student-section-fees-costs
-│  ├─ rs-student-list-risks-common-mistakes
-│  ├─ rs-student-section-diy-vs-professional-assistance
-│  ├─ rs-student-section-rio-grande-do-sul-specific-context
-│  ├─ rs-student-section-what-our-clients-say
-│  ├─ rs-student-section-frequently-asked-questions
-│  ├─ rs-student-section-international-support
-│  ├─ application-form
-│  ├─ rs-student-list-our-credentials
-│  ├─ rs-student-list-related-services
-│  ├─ rs-student-section-youre-in-good-hands
-│  ├─ rs-student-section-21
-
-├─ business.html
-│  ├─ rs-business-form-conduct-business-in-brazil-with-the-business-visa
-│  ├─ rs-business-list-quick-facts
-│  ├─ rs-business-list-common-challenges-applicants-face
-│  ├─ rs-business-list-how-we-solve-these-challenges
-│  ├─ rs-business-section-visa-overview
-│  ├─ rs-business-form-who-is-this-visa-for
-│  ├─ rs-business-list-required-documents
-│  ├─ rs-business-list-application-process
-│  ├─ rs-business-section-timelines-deadlines
-│  ├─ rs-business-section-fees-costs
-│  ├─ rs-business-list-risks-common-mistakes
-│  ├─ rs-business-section-diy-vs-professional-assistance
-│  ├─ rs-business-section-rio-grande-do-sul-specific-context
-│  ├─ rs-business-section-what-our-clients-say
-│  ├─ rs-business-section-frequently-asked-questions
-│  ├─ rs-business-section-international-support
-│  ├─ application-form
-│  ├─ rs-business-list-our-credentials
-│  ├─ rs-business-list-related-services
-│  ├─ rs-business-section-youre-in-good-hands
-│  ├─ rs-business-section-21
-
-├─ research.html
-│  ├─ rs-research-form-conduct-research-in-brazil-with-the-research-visa
-│  ├─ rs-research-list-quick-facts
-│  ├─ rs-research-list-common-challenges-applicants-face
-│  ├─ rs-research-list-how-we-solve-these-challenges
-│  ├─ rs-research-section-visa-overview
-│  ├─ rs-research-form-who-is-this-visa-for
-│  ├─ rs-research-list-required-documents
-│  ├─ rs-research-list-application-process
-│  ├─ rs-research-section-timelines-deadlines
-│  ├─ rs-research-section-fees-costs
-│  ├─ rs-research-list-risks-common-mistakes
-│  ├─ rs-research-section-diy-vs-professional-assistance
-│  ├─ rs-research-section-rio-grande-do-sul-specific-context
-│  ├─ rs-research-section-what-our-clients-say
-│  ├─ rs-research-section-frequently-asked-questions
-│  ├─ rs-research-section-international-support
-│  ├─ application-form
-│  ├─ rs-research-list-our-credentials
-│  ├─ rs-research-list-related-services
-│  ├─ rs-research-section-youre-in-good-hands
-│  ├─ rs-research-section-21
-
-├─ diplomatic.html
-│  ├─ rs-diplomatic-form-official-diplomatic-visa-for-brazil-missions
-│  ├─ rs-diplomatic-list-quick-facts
-│  ├─ rs-diplomatic-list-common-challenges-applicants-face
-│  ├─ rs-diplomatic-list-how-we-solve-these-challenges
-│  ├─ rs-diplomatic-section-visa-overview
-│  ├─ rs-diplomatic-form-who-is-this-visa-for
-│  ├─ rs-diplomatic-list-required-documents
-│  ├─ rs-diplomatic-list-application-process
-│  ├─ rs-diplomatic-section-timelines-deadlines
-│  ├─ rs-diplomatic-section-fees-costs
-│  ├─ rs-diplomatic-list-risks-common-mistakes
-│  ├─ rs-diplomatic-section-diy-vs-professional-assistance
-│  ├─ rs-diplomatic-section-rio-grande-do-sul-specific-context
-│  ├─ rs-diplomatic-section-what-our-clients-say
-│  ├─ rs-diplomatic-section-frequently-asked-questions
-│  ├─ rs-diplomatic-section-international-support
-│  ├─ application-form
-│  ├─ rs-diplomatic-list-our-credentials
-│  ├─ rs-diplomatic-list-related-services
-│  ├─ rs-diplomatic-section-youre-in-good-hands
-│  ├─ rs-diplomatic-section-21
-
-├─ journalist.html
-│  ├─ rs-journalist-form-cover-news-in-brazil-with-the-journalist-visa
-│  ├─ rs-journalist-list-quick-facts
-│  ├─ rs-journalist-list-common-challenges-applicants-face
-│  ├─ rs-journalist-list-how-we-solve-these-challenges
-│  ├─ rs-journalist-section-visa-overview
-│  ├─ rs-journalist-form-who-is-this-visa-for
-│  ├─ rs-journalist-list-required-documents
-│  ├─ rs-journalist-list-application-process
-│  ├─ rs-journalist-section-timelines-deadlines
-│  ├─ rs-journalist-section-fees-costs
-│  ├─ rs-journalist-list-risks-common-mistakes
-│  ├─ rs-journalist-section-diy-vs-professional-assistance
-│  ├─ rs-journalist-section-rio-grande-do-sul-specific-context
-│  ├─ rs-journalist-section-what-our-clients-say
-│  ├─ rs-journalist-section-frequently-asked-questions
-│  ├─ rs-journalist-section-international-support
-│  ├─ application-form
-│  ├─ rs-journalist-list-our-credentials
-│  ├─ rs-journalist-list-related-services
-│  ├─ rs-journalist-section-youre-in-good-hands
-│  ├─ rs-journalist-section-21
-
-├─ fines.html
-│  ├─ rs-fines-form-resolve-immigration-fines-in-brazil
-│  ├─ rs-fines-list-quick-facts
-│  ├─ rs-fines-list-common-challenges-applicants-face
-│  ├─ rs-fines-list-how-we-solve-these-challenges
-│  ├─ rs-fines-section-service-overview
-│  ├─ rs-fines-form-who-is-this-service-for
-│  ├─ rs-fines-list-required-documents
-│  ├─ rs-fines-list-process
-│  ├─ rs-fines-section-timelines-deadlines
-│  ├─ rs-fines-section-fees-costs
-│  ├─ rs-fines-list-risks-common-mistakes
-│  ├─ rs-fines-section-diy-vs-professional-assistance
-│  ├─ rs-fines-section-rio-grande-do-sul-specific-context
-│  ├─ rs-fines-section-what-our-clients-say
-│  ├─ rs-fines-section-frequently-asked-questions
-│  ├─ rs-fines-section-international-support
-│  ├─ application-form
-│  ├─ rs-fines-list-our-credentials
-│  ├─ rs-fines-list-related-services
-│  ├─ rs-fines-section-youre-in-good-hands
-│  ├─ rs-fines-section-21
-
-├─ deportation.html
-│  ├─ rs-deportation-form-deportation-assistance-in-brazil
-│  ├─ rs-deportation-list-quick-facts
-│  ├─ rs-deportation-list-common-challenges-applicants-face
-│  ├─ rs-deportation-list-how-we-solve-these-challenges
-│  ├─ rs-deportation-section-service-overview
-│  ├─ rs-deportation-form-who-is-this-service-for
-│  ├─ rs-deportation-list-required-documents
-│  ├─ rs-deportation-list-process
-│  ├─ rs-deportation-section-timelines-deadlines
-│  ├─ rs-deportation-section-fees-costs
-│  ├─ rs-deportation-list-risks-common-mistakes
-│  ├─ rs-deportation-section-diy-vs-professional-assistance
-│  ├─ rs-deportation-section-rio-grande-do-sul-specific-context
-│  ├─ rs-deportation-section-what-our-clients-say
-│  ├─ rs-deportation-section-frequently-asked-questions
-│  ├─ rs-deportation-section-international-support
-│  ├─ application-form
-│  ├─ rs-deportation-list-our-credentials
-│  ├─ rs-deportation-list-related-services
-│  ├─ rs-deportation-section-youre-in-good-hands
-│  ├─ rs-deportation-section-21
-
-├─ translation.html
-│  ├─ rs-translation-form-sworn-document-translation-services-in-brazil
-│  ├─ rs-translation-list-quick-facts
-│  ├─ rs-translation-list-common-challenges-applicants-face
-│  ├─ rs-translation-list-how-we-solve-these-challenges
-│  ├─ rs-translation-section-service-overview
-│  ├─ rs-translation-form-who-is-this-service-for
-│  ├─ rs-translation-list-required-documents
-│  ├─ rs-translation-list-process
-│  ├─ rs-translation-section-timelines-deadlines
-│  ├─ rs-translation-section-fees-costs
-│  ├─ rs-translation-list-risks-common-mistakes
-│  ├─ rs-translation-section-diy-vs-professional-assistance
-│  ├─ rs-translation-section-rio-grande-do-sul-specific-context
-│  ├─ rs-translation-section-what-our-clients-say
-│  ├─ rs-translation-section-frequently-asked-questions
-│  ├─ rs-translation-section-international-support
-│  ├─ application-form
-│  ├─ rs-translation-list-our-credentials
-│  ├─ rs-translation-list-related-services
-│  ├─ rs-translation-section-youre-in-good-hands
-│  ├─ rs-translation-section-21
-
-├─ expulsion.html
-│  ├─ rs-expulsion-form-expulsion-assistance-in-brazil
-│  ├─ rs-expulsion-list-quick-facts
-│  ├─ rs-expulsion-list-common-challenges-applicants-face
-│  ├─ rs-expulsion-list-how-we-solve-these-challenges
-│  ├─ rs-expulsion-section-service-overview
-│  ├─ rs-expulsion-form-who-is-this-service-for
-│  ├─ rs-expulsion-list-required-documents
-│  ├─ rs-expulsion-list-process
-│  ├─ rs-expulsion-section-timelines-deadlines
-│  ├─ rs-expulsion-section-fees-costs
-│  ├─ rs-expulsion-list-risks-common-mistakes
-│  ├─ rs-expulsion-section-diy-vs-professional-assistance
-│  ├─ rs-expulsion-section-rio-grande-do-sul-specific-context
-│  ├─ rs-expulsion-section-what-our-clients-say
-│  ├─ rs-expulsion-section-frequently-asked-questions
-│  ├─ rs-expulsion-section-international-support
-│  ├─ application-form
-│  ├─ rs-expulsion-list-our-credentials
-│  ├─ rs-expulsion-list-related-services
-│  ├─ rs-expulsion-section-youre-in-good-hands
-│  ├─ rs-expulsion-section-21
-
-├─ appeals.html
-│  ├─ rs-appeals-form-appeal-immigration-denials-in-brazil
-│  ├─ rs-appeals-list-quick-facts
-│  ├─ rs-appeals-list-common-challenges-applicants-face
-│  ├─ rs-appeals-list-how-we-solve-these-challenges
-│  ├─ rs-appeals-section-service-overview
-│  ├─ rs-appeals-form-who-is-this-service-for
-│  ├─ rs-appeals-list-required-documents
-│  ├─ rs-appeals-list-appeal-process
-│  ├─ rs-appeals-section-timelines-deadlines
-│  ├─ rs-appeals-section-fees-costs
-│  ├─ rs-appeals-list-risks-common-mistakes
-│  ├─ rs-appeals-section-diy-vs-professional-assistance
-│  ├─ rs-appeals-section-rio-grande-do-sul-specific-context
-│  ├─ rs-appeals-section-what-our-clients-say
-│  ├─ rs-appeals-section-frequently-asked-questions
-│  ├─ rs-appeals-section-international-support
-│  ├─ application-form
-│  ├─ rs-appeals-list-our-credentials
-│  ├─ rs-appeals-list-related-services
-│  ├─ rs-appeals-section-youre-in-good-hands
-│  ├─ rs-appeals-section-21
-
-├─ consular.html
-│  ├─ rs-consular-form-consular-services-in-brazil-for-citizens
-│  ├─ rs-consular-list-quick-facts
-│  ├─ rs-consular-list-common-challenges-applicants-face
-│  ├─ rs-consular-list-how-we-solve-these-challenges
-│  ├─ rs-consular-section-service-overview
-│  ├─ rs-consular-form-who-is-this-service-for
-│  ├─ rs-consular-list-required-documents
-│  ├─ rs-consular-list-process
-│  ├─ rs-consular-section-timelines-deadlines
-│  ├─ rs-consular-section-fees-costs
-│  ├─ rs-consular-list-risks-common-mistakes
-│  ├─ rs-consular-section-diy-vs-professional-assistance
-│  ├─ rs-consular-section-rio-grande-do-sul-specific-context
-│  ├─ rs-consular-section-what-our-clients-say
-│  ├─ rs-consular-section-frequently-asked-questions
-│  ├─ rs-consular-section-international-support
-│  ├─ application-form
-│  ├─ rs-consular-list-our-credentials
-│  ├─ rs-consular-list-related-services
-│  ├─ rs-consular-section-youre-in-good-hands
-│  ├─ rs-consular-section-21
-
-├─ criminal-records.html
-│  ├─ rs-criminalrecords-form-obtain-criminal-records-certificate-in-brazil
-│  ├─ rs-criminalrecords-list-quick-facts
-│  ├─ rs-criminalrecords-list-common-challenges-applicants-face
-│  ├─ rs-criminalrecords-list-how-we-solve-these-challenges
-│  ├─ rs-criminalrecords-section-service-overview
-│  ├─ rs-criminalrecords-form-who-is-this-service-for
-│  ├─ rs-criminalrecords-list-required-documents
-│  ├─ rs-criminalrecords-list-process
-│  ├─ rs-criminalrecords-section-timelines-deadlines
-│  ├─ rs-criminalrecords-section-fees-costs
-│  ├─ rs-criminalrecords-list-risks-common-mistakes
-│  ├─ rs-criminalrecords-section-diy-vs-professional-assistance
-│  ├─ rs-criminalrecords-section-rio-grande-do-sul-specific-context
-│  ├─ rs-criminalrecords-section-what-our-clients-say
-│  ├─ rs-criminalrecords-section-frequently-asked-questions
-│  ├─ rs-criminalrecords-section-international-support
-│  ├─ application-form
-│  ├─ rs-criminalrecords-list-our-credentials
-│  ├─ rs-criminalrecords-list-related-services
-│  ├─ rs-criminalrecords-section-youre-in-good-hands
-│  ├─ rs-criminalrecords-section-21
-
-├─ extradition.html
-│  ├─ rs-extradition-form-extradition-assistance-in-brazil
-│  ├─ rs-extradition-list-quick-facts
-│  ├─ rs-extradition-list-common-challenges-applicants-face
-│  ├─ rs-extradition-list-how-we-solve-these-challenges
-│  ├─ rs-extradition-section-service-overview
-│  ├─ rs-extradition-form-who-is-this-service-for
-│  ├─ rs-extradition-list-required-documents
-│  ├─ rs-extradition-list-process
-│  ├─ rs-extradition-section-timelines-deadlines
-│  ├─ rs-extradition-section-fees-costs
-│  ├─ rs-extradition-list-risks-common-mistakes
-│  ├─ rs-extradition-section-diy-vs-professional-assistance
-│  ├─ rs-extradition-section-rio-grande-do-sul-specific-context
-│  ├─ rs-extradition-section-what-our-clients-say
-│  ├─ rs-extradition-section-frequently-asked-questions
-│  ├─ rs-extradition-section-international-support
-│  ├─ application-form
-│  ├─ rs-extradition-list-our-credentials
-│  ├─ rs-extradition-list-related-services
-│  ├─ rs-extradition-section-youre-in-good-hands
-│  ├─ rs-extradition-section-21
-
-├─ north.html
-│  ├─ rs-north-form-discover-the-north-amazon-and-beyond
-│  ├─ rs-north-list-quick-facts
-│  ├─ rs-north-list-common-challenges-applicants-face
-│  ├─ rs-north-list-how-we-solve-these-challenges
-│  ├─ rs-north-section-trip-overview
-│  ├─ rs-north-form-who-is-this-trip-for
-│  ├─ rs-north-list-required-documents
-│  ├─ rs-north-list-booking-process
-│  ├─ rs-north-section-timelines-deadlines
-│  ├─ rs-north-section-fees-costs
-│  ├─ rs-north-list-risks-common-mistakes
-│  ├─ rs-north-section-diy-vs-professional-assistance
-│  ├─ rs-north-section-rio-grande-do-sul-specific-context
-│  ├─ rs-north-section-what-our-clients-say
-│  ├─ rs-north-section-frequently-asked-questions
-│  ├─ rs-north-section-international-support
-│  ├─ application-form
-│  ├─ rs-north-list-our-credentials
-│  ├─ rs-north-list-related-services
-│  ├─ rs-north-section-youre-in-good-hands
-│  ├─ rs-north-section-21
+├─ mobile-nav.html
+│  ├─ mobile-nav
 
 ├─ central-west.html
-│  ├─ rs-centralwest-form-wild-centralwest-pantanal-and-cerrado
-│  ├─ rs-centralwest-list-quick-facts
-│  ├─ rs-centralwest-list-common-challenges-applicants-face
-│  ├─ rs-centralwest-list-how-we-solve-these-challenges
-│  ├─ rs-centralwest-section-trip-overview
-│  ├─ rs-centralwest-form-who-is-this-trip-for
-│  ├─ rs-centralwest-list-required-documents
-│  ├─ rs-centralwest-list-booking-process
-│  ├─ rs-centralwest-section-timelines-deadlines
-│  ├─ rs-centralwest-section-fees-costs
-│  ├─ rs-centralwest-list-risks-common-mistakes
-│  ├─ rs-centralwest-section-diy-vs-professional-assistance
-│  ├─ rs-centralwest-section-rio-grande-do-sul-specific-context
-│  ├─ rs-centralwest-section-what-our-clients-say
-│  ├─ rs-centralwest-section-frequently-asked-questions
-│  ├─ rs-centralwest-section-international-support
-│  ├─ application-form
-│  ├─ rs-centralwest-list-our-credentials
-│  ├─ rs-centralwest-list-related-services
-│  ├─ rs-centralwest-section-youre-in-good-hands
-│  ├─ rs-centralwest-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
-├─ southeast.html
-│  ├─ rs-southeast-form-dynamic-southeast-cities-and-history
-│  ├─ rs-southeast-list-quick-facts
-│  ├─ rs-southeast-list-common-challenges-applicants-face
-│  ├─ rs-southeast-list-how-we-solve-these-challenges
-│  ├─ rs-southeast-section-trip-overview
-│  ├─ rs-southeast-form-who-is-this-trip-for
-│  ├─ rs-southeast-list-required-documents
-│  ├─ rs-southeast-list-booking-process
-│  ├─ rs-southeast-section-timelines-deadlines
-│  ├─ rs-southeast-section-fees-costs
-│  ├─ rs-southeast-list-risks-common-mistakes
-│  ├─ rs-southeast-section-diy-vs-professional-assistance
-│  ├─ rs-southeast-section-rio-grande-do-sul-specific-context
-│  ├─ rs-southeast-section-what-our-clients-say
-│  ├─ rs-southeast-section-frequently-asked-questions
-│  ├─ rs-southeast-section-international-support
-│  ├─ application-form
-│  ├─ rs-southeast-list-our-credentials
-│  ├─ rs-southeast-list-related-services
-│  ├─ rs-southeast-section-youre-in-good-hands
-│  ├─ rs-southeast-section-21
+├─ north.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ northeast.html
-│  ├─ rs-northeast-form-vibrant-northeast-beaches-and-culture
-│  ├─ rs-northeast-list-quick-facts
-│  ├─ rs-northeast-list-common-challenges-applicants-face
-│  ├─ rs-northeast-list-how-we-solve-these-challenges
-│  ├─ rs-northeast-section-trip-overview
-│  ├─ rs-northeast-form-who-is-this-trip-for
-│  ├─ rs-northeast-list-required-documents
-│  ├─ rs-northeast-list-booking-process
-│  ├─ rs-northeast-section-timelines-deadlines
-│  ├─ rs-northeast-section-fees-costs
-│  ├─ rs-northeast-list-risks-common-mistakes
-│  ├─ rs-northeast-section-diy-vs-professional-assistance
-│  ├─ rs-northeast-section-rio-grande-do-sul-specific-context
-│  ├─ rs-northeast-section-what-our-clients-say
-│  ├─ rs-northeast-section-frequently-asked-questions
-│  ├─ rs-northeast-section-international-support
-│  ├─ application-form
-│  ├─ rs-northeast-list-our-credentials
-│  ├─ rs-northeast-list-related-services
-│  ├─ rs-northeast-section-youre-in-good-hands
-│  ├─ rs-northeast-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ south.html
-│  ├─ rs-south-form-charming-south-wine-and-gauchos
-│  ├─ rs-south-list-quick-facts
-│  ├─ rs-south-list-common-challenges-applicants-face
-│  ├─ rs-south-list-how-we-solve-these-challenges
-│  ├─ rs-south-section-trip-overview
-│  ├─ rs-south-form-who-is-this-trip-for
-│  ├─ rs-south-list-required-documents
-│  ├─ rs-south-list-booking-process
-│  ├─ rs-south-section-timelines-deadlines
-│  ├─ rs-south-section-fees-costs
-│  ├─ rs-south-list-risks-common-mistakes
-│  ├─ rs-south-section-diy-vs-professional-assistance
-│  ├─ rs-south-section-rio-grande-do-sul-specific-context
-│  ├─ rs-south-section-what-our-clients-say
-│  ├─ rs-south-section-frequently-asked-questions
-│  ├─ rs-south-section-international-support
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ southeast.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ derivative.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ extraordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ ordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ provisional.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ reacquisition-citizenship.html
+│  ├─ hero-heading
 │  ├─ application-form
-│  ├─ rs-south-list-our-credentials
-│  ├─ rs-south-list-related-services
-│  ├─ rs-south-section-youre-in-good-hands
-│  ├─ rs-south-section-21
+
+├─ reacquisition.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ renouncing-citizenship.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ special.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ apostille.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ appeals.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ authentication.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ company-formation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ consular.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ consultation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cpf.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ criminal-records.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ deportation.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ expulsion.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ extradition.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ fines.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ power-of-attorney.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ rne.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ translation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cplp.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ crnm.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family-reunion.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ health-treatment.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investment.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investor.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ marriage.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ mercosul.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ permanent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ researcher.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ scientific-research.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ skilled-worker.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ startup.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ study.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ temporary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ youth-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ artist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ artistic.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ business.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ crew.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cultural.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ dependent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ diplomatic.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ investor.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ journalist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ medical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ missionary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ official.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ research.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ sports.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ startup.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ student.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ technical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ tourist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ transit.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
